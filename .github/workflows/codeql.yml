@@ -25,7 +25,7 @@ jobs:
       matrix:
         include:
           - language: c-cpp
-            build-mode: autobuild
+            build-mode: manual
           - language: javascript-typescript
             build-mode: none
           - language: ruby
